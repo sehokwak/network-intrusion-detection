@@ -40,7 +40,7 @@ total_df = pd.concat([df, median_df])
 #scatter plot
 fig, ax = plt.subplots()
 colors = {'normal':'aquamarine', 'attack':'crimson', 'median':'dodgerblue'}
-marker = {'normal':'.', 'median':'.', 'attack':'2'}
+marker = {'normal':'.', 'median':'.', 'attack':'x'}
 markersize = {'normal':5, 'median':1, 'attack':7}
 graph_title = {'feature_comparisons/PvE.txt':'Eigenvector Centrality vs. Edge Counts',
                 'feature_comparisons/WvE.txt':'Edge Weights vs. Edge Counts',
